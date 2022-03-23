@@ -22,7 +22,7 @@ class Auto:
                         return "Las piezas no son originales"
                 else:
                     continue
-            return "Aunto original"
+            return "Auto original"
         else:
             return "Las piezas no son originales"
 
@@ -33,7 +33,7 @@ class Motor:
         self.tipo = tipo
         self.registro = registro
 
-    def cambiarRegristro(self, registro):
+    def cambiarRegistro(self, registro):
         self.registro = registro
 
     def asignarTipo(self, tipo):
